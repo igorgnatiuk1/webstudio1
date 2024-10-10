@@ -1,0 +1,80 @@
+:root {
+  --primery-color: #rgba(33, 33, 33, 1);
+  --secondary-color: #212121;
+  --bgr-color: rgba(47, 48, 58, 1);
+  --blue-color: rgba(33, 150, 243, 1);
+  --foter-color: rgba(255, 255, 255, 0.6);
+  --link-color: rgba(117, 117, 117, 1);
+}
+
+body {
+  color: var(--secondary-color);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+/* header */
+.logo {git 
+  color: var(--blue-color);
+}
+.logo span {
+  color: rgba(0, 0, 0, 1);
+}
+.navigator .item {
+  color: var(--primery-color);
+}
+.navigator .link {
+  color: rgba(117, 117, 117, 1);
+}
+.navigator .link:hover,
+.navigator .link:focus {
+  color: var(--blue-color);
+}
+.navigator .item:hover,
+.navigator .item:focus {
+  color: var(--blue-color);
+}
+.navigator .active{
+    color: var(--blue-color);
+}
+
+/* * hero */
+.hero {
+  
+  background-color: var(--bgr-color);
+}
+.hero h1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.function .name {
+  color: var(--primery-color);
+}
+.function .description {
+  color: rgba(117, 117, 117, 1);
+}
+.section .options {
+  color: var(--primery-color);
+}
+.section .name {
+  color: var(--primery-color);
+}
+.section .work {
+  color: rgba(117, 117, 117, 1);
+}
+.logo .span {
+  color: white;
+}
+.footer{
+    background-color: var(--bgr-color);
+}
+.footer .address{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer .city{
+    color: rgba(255, 255, 255, 1);
+}
